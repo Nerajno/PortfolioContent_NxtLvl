@@ -26,24 +26,20 @@ If you created something awesome and want to contribute then feel free to open a
 ✔️ Skills
 ✔️ Contact
 
+## Color Palette
+#80AEBF
+#73493F
+#88B0BF
+#465973
+#212E40
 
-## How To Use 
 
-From your command line, clone and run react-portfolio-template:
 
-```bash
-# Clone this repository
-$ git clone https://github.com/chetanverma16/react-portfolio-template
+## Examples
 
-# Go into the repository
-$ cd react-portfolio-template
-
-# Install dependencies
-$ yarn
-
-#Start's development server
-$ gatsby develop
-```
+https://gatsby-simplefolio.netlify.app/
+https://react-portfolio-template.netlify.app/
+https://developerfolio.js.org/#contact (1)
 
 #### Personalize page content in `/src/yourdata.js` & modify it as per your need.
 
@@ -65,7 +61,6 @@ We highly recommend to read through the [Deploying on Github Pages](https://crea
 #### Deploying to Netlify
 
 You could also host directly with Netlify by linking your own repository.
-
 [![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chetanverma16/react-portfolio-template)
 
 For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
@@ -76,11 +71,6 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 - [React](https://reactjs.org/)
 - [Gatsby](https://www.gatsbyjs.com/)
 
-
-
-## For the Future
-If you have awesome ideas on your mind,
-please don't hesitate to open a [pull request](https://github.com/chetanverma16/react-portfolio-template/pulls).
 
 ## Thanks
 If you like this portfolio template don't forget give it a ⭐ and also share it with me [here](mailto:hello@chetanverma.com).

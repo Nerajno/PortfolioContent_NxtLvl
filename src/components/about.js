@@ -17,7 +17,6 @@ const About = () => {
               <br></br>
               {data.aboutParaTwo}
               <br></br>
-              <br></br>
               {data.aboutParaThree}
             </p>
           </div>

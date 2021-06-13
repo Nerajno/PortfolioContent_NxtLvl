@@ -47,7 +47,7 @@ https://developerfolio.js.org/#contact (1)
 /* Change this file to get your Personal Porfolio */
  // Edit Values of these variables
 
-name:"chetan",
+name:"Nerando",
 headerTagline: [
     "Building digital",.... 
 ]

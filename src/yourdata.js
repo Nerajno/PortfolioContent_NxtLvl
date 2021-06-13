@@ -6,12 +6,11 @@ import jsIcon from "./images/javascript.svg"
 import designIcon from "./images/design.svg"
 import codeIcon from "./images/code.svg"
 
-
 // Social Icon
 import githubIcon from "./images/github.svg"
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { library } from "@fortawesome/fontawesome-svg-core"
+import { fab } from "@fortawesome/free-brands-svg-icons"
+import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons"
 
 library.add(fab, faCheckSquare, faCoffee)
 
@@ -129,7 +128,6 @@ export default {
   // Skills Section ---------------
 
   //   Import Icons from the top and link it here
-
   skills: [
     {
       img: htmlIcon,
@@ -148,16 +146,6 @@ export default {
     },
     {
       img: reactIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: designIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: codeIcon,
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     },
@@ -180,7 +168,6 @@ export default {
     { img: githubIcon, url: "https://github.com/nerajno" },
     // { img: codepenIcon, url: "https://www.codepen.com/" },
     // { img: codepenIcon, url: "https://www.codepen.com/" },
-
   ],
 
   // End Contact Section ---------------

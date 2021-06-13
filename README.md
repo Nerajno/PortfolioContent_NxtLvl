@@ -37,9 +37,18 @@ If you created something awesome and want to contribute then feel free to open a
 
 ## Examples
 
-https://gatsby-simplefolio.netlify.app/
-https://react-portfolio-template.netlify.app/
-https://developerfolio.js.org/#contact (1)
+- https://gatsby-simplefolio.netlify.app/
+- https://react-portfolio-template.netlify.app/
+- https://developerfolio.js.org/#contact 
+- https://bchiang7.github.io/
+- https://mldangelo.com/
+- https://iuricode.vercel.app/4
+- https://mmacneil.github.io/devfolio/
+- http://zubair-portfolio.surge.sh/#/
+- https://mmacneil.github.io/devfolio/
+- https://anuraghazra.github.io/
+- https://christianibarguen.com/
+
 
 #### Personalize page content in `/src/yourdata.js` & modify it as per your need.
 

@@ -46,7 +46,7 @@ const Header = () => {
               }`}
               className="primary-btn"
             >
-              CONNECT WITH ME
+              CONNECT WITH ME // Link 2 AWS btn
             </a>
           </Fade>
         </div>

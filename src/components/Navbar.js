@@ -21,7 +21,6 @@ const Navbar = () => {
             <button onClick={() => scrollTo("#work")}>Open Source Contribution</button>
             <button onClick={() => scrollTo("#contact")}>Testimonials</button>
             <button onClick={() => scrollTo("#blogs")}>Blogs and Talks</button>
-            
             <button onClick={() => scrollTo("#contact")}>Contact</button>
           </div>
         </div>

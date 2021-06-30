@@ -22,16 +22,16 @@ export default {
   name: "Nerando",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Level 1.5",
     //Line 2 For Header
-    "products, brands,",
+    "Rails/ React FullStack Developer",
     //Line 3 For Header
-    "and experience",
+    "Tech Community Organizer",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-
+    "Trying to be perfect is an excuse not to do. – Gary Vaynerchuk",
+    //Look into putting in auto typer with info or more info.
   //Contact Email
   contactEmail: "iamnerandojohnson@gmail.com",
 

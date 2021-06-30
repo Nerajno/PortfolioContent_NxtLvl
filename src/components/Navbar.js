@@ -16,10 +16,10 @@ const Navbar = () => {
           <div className="links-wrapper">
             <button onClick={() => scrollTo("#about")}>About</button>
             <button onClick={() => scrollTo("#work")}>Projects</button>
-            <button onClick={() => scrollTo("#work")}>Skills</button>
+            <button onClick={() => scrollTo("#skills")}>Skills</button>
             <button onClick={() => scrollTo("#experience")}>Professional Experience</button>
-            <button onClick={() => scrollTo("#work")}>Open Source Contribution</button>
-            <button onClick={() => scrollTo("#contact")}>Testimonials</button>
+            <button onClick={() => scrollTo("#opensourcecontributions")}>Open Source Contributions</button>
+            <button onClick={() => scrollTo("#testimonials")}>Testimonials</button>
             <button onClick={() => scrollTo("#blogs")}>Blogs and Talks</button>
             <button onClick={() => scrollTo("#contact")}>Contact</button>
           </div>

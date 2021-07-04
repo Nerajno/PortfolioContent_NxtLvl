@@ -22,8 +22,8 @@ import Footer from "../components/Footer"
 const IndexPage = () => (
   <Layout>
     <SEO title="Nerando Johnson's Portfolio" />
-    <Header></Header>
     <Work></Work>
+    <Header></Header>
     <About></About>
     <Skills></Skills>
     <Promotion></Promotion>

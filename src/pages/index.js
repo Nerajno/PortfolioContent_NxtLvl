@@ -22,11 +22,14 @@ import Footer from "../components/Footer"
 const IndexPage = () => (
   <Layout>
     <SEO title="Nerando Johnson's Portfolio" />
-    <Work></Work>
     <Header></Header>
     <About></About>
+    <Work></Work> {/* Projects */}
     <Skills></Skills>
-    <Promotion></Promotion>
+    <Promotion></Promotion>{/*Work Experience */}
+    <Promotion></Promotion>{/*Open Source  */}
+    <Promotion></Promotion>{/*Certs and Completed Courses */}
+    <Promotion></Promotion>{/* Blogs and Talks  */}
     <Footer></Footer>
   </Layout>
 )

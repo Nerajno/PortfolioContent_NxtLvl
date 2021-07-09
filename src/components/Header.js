@@ -11,7 +11,7 @@ const Header = () => {
             <h2>
               Hi, I'm {data.name}{" "}
               <span role="img" aria-label="Emoji">
-                👋
+              👋🏿
               </span>
             </h2>
           </Fade>
@@ -46,7 +46,7 @@ const Header = () => {
               }`}
               className="primary-btn"
             >
-              CONNECT WITH ME
+              Get in touch 👉🏿 📩 // Link 2 AWS btn
             </a>
           </Fade>
         </div>

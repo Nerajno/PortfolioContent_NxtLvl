@@ -24,22 +24,34 @@ export default {
   name: "Nerando",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Level 1.5",
     //Line 2 For Header
-    "products, brands,",
+    "Rails/ React FullStack Developer",
     //Line 3 For Header
-    "and experience",
+    "Tech Community Organizer",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-
+    "Trying to be perfect is an excuse not to do. – Gary Vaynerchuk",
+    //Look into putting in auto typer with info or more info.
   //Contact Email
   contactEmail: "iamnerandojohnson@gmail.com, 
 
   // End Header Details -----------------------
 
-  // Work Section ------------------------
+  // About Secton --------------
+  aboutParaOne:
+    "This is Nerando, he likes to use programming to solve problems, (Yup, He has the skills of a full stack developer). Nerando has been a community organizer for freeCodeCamp Atlanta for over the last two - three years. He has been to a few hackathons and is an infrequent blogger (working on that).",
+  aboutParaTwo:
+    "Nerando has worn a few hats before becoming a developer : lab technician, farmer, truck driver, middle school science teacher, business founder, tutor and a middle school literacy specialist. These turns in the road has enabled him learn fast, work well within a properly structured team, understand what going the extra mile means and having a different outlook while problem solving or developing solutions.",
+  aboutParaThree:
+    "When not coding, Nerando enjoys cooking, reading, the act of creating something from nothing and the odd blog or podcast about the human mind or habits (Hi, NPR). After completing the Flatiron School's FullStack Software Engineering Immersive ( completed Sept 2019) and served time as QA/junior software developer at WarnerMedia, he is currently looking for his next career oppurtunity. With some experience as the local organizer of the FreeCodeCamp group, he has been able to mentor and help other people in their developer journey while working on his own.",
+  aboutImage:
+    "https://drive.google.com/file/d/14C9eNCS0skgEVPV79PTZG1HnuObJwpo4/view?usp=sharing",
+
+  //   End About Section ---------------------
+
+  // Projects Section ------------------------
   projects: [
     {
       title: "Project One", //Project Title - Add Your Project Title Here
@@ -101,6 +113,16 @@ export default {
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
     },
+    {
+      title: "Project Seven ", //Project Title - Add Your Project Title Here
+      para:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+      //Project URL - Add Your Project Url Here
+      url: "http://chetanverma.com/",
+    },
 
     /*
     If You Want To Add More Project just Copy and Paste This At The End
@@ -113,19 +135,7 @@ export default {
     */
   ],
 
-  // End Work Section -----------------------
-
-  // About Secton --------------
-  aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-  aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
-
-  //   End About Section ---------------------
+  // End Projects Section -----------------------
 
   // Skills Section ---------------
 
@@ -155,12 +165,19 @@ export default {
 
   // End Skills Section --------------------------
 
-  //   Promotion Section --------------------------
+  //   Experience Section --------------------------
 
   promotionHeading: "Heading",
   promotionPara:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  // End Promotion Section -----------------
+  // End Experience Section -----------------
+
+    //   Promotion / Blogs && Talks Section --------------------------
+
+    promotionHeading: "Heading",
+    promotionPara:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    // End Promotion Section -----------------
 
   //   Contact Section --------------
 

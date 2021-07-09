@@ -6,7 +6,7 @@ const Promotion = () => {
   return (
     <div className="section">
       <div className="container">
-        <div className="promotion-container">
+        <div className="promotion-container promotion">
           <Fade bottom cascade>
             <h1>{data.promotionHeading}</h1>
           </Fade>

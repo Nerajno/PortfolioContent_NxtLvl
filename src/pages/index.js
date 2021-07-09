@@ -13,9 +13,10 @@ import SEO from "../components/seo"
 
 // Components
 import Header from "../components/Header"
-import Work from "../components/Work"
-import About from "../components/about"
-import Skills from "../components/skills"
+import About from "../components/About"
+import Projects from "../components/Projects"
+import Skills from "../components/Skills"
+import Experience from "../components/Experience"
 import Promotion from "../components/Promotion"
 import Footer from "../components/Footer"
 
@@ -23,10 +24,13 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Nerando Johnson's Portfolio" />
     <Header></Header>
-    <Work></Work>
     <About></About>
+    <Projects></Projects> {/* Projects */}
+    {/* <Promotion></Promotion>Open Source  */}
     <Skills></Skills>
-    <Promotion></Promotion>
+    <Experience></Experience>{/*Work Experience */}
+    {/* <Promotion></Promotion>Certs and Completed Courses */}
+    <Promotion></Promotion>{/* Blogs and Talks  */}
     <Footer></Footer>
   </Layout>
 )

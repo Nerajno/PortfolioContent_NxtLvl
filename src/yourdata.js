@@ -39,17 +39,17 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "This is Nerando, he likes to use programming to solve problems, (Yup, He has the skills of a full stack developer). Nerando has been a community organizer for freeCodeCamp Atlanta for over the last two - three years. He has been to a few hackathons and is an infrequent blogger (working on that).",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "Nerando has worn a few hats before becoming a developer : lab technician, farmer, truck driver, middle school science teacher, business founder, tutor and a middle school literacy specialist. These turns in the road has enabled him learn fast, work well within a properly structured team, understand what going the extra mile means and having a different outlook while problem solving or developing solutions.",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "When not coding, Nerando enjoys cooking, reading, the act of creating something from nothing and the odd blog or podcast about the human mind or habits (Hi, NPR). After completing the Flatiron School's FullStack Software Engineering Immersive ( completed Sept 2019) and served time as QA/junior software developer at WarnerMedia, he is currently looking for his next career oppurtunity. With some experience as the local organizer of the FreeCodeCamp group, he has been able to mentor and help other people in their developer journey while working on his own.",
   aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    "https://drive.google.com/file/d/14C9eNCS0skgEVPV79PTZG1HnuObJwpo4/view?usp=sharing",
 
   //   End About Section ---------------------
 
-  // Work Section ------------------------
+  // Projects Section ------------------------
   projects: [
     {
       title: "Project One", //Project Title - Add Your Project Title Here
@@ -133,8 +133,7 @@ export default {
     */
   ],
 
-  // End Work Section -----------------------
-
+  // End Projects Section -----------------------
 
   // Skills Section ---------------
 
@@ -164,26 +163,12 @@ export default {
 
   // End Skills Section --------------------------
 
-  //   Promotion / Wrk Experience  Section --------------------------
+  //   Experience Section --------------------------
 
   promotionHeading: "Heading",
   promotionPara:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  // End Promotion Section -----------------
-
-  //   Promotion / Open Source Section --------------------------
-
-  promotionHeading: "Heading",
-  promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  // End Promotion Section -----------------
-
-  //   Promotion / Certs && Completed Courses Section --------------------------
-
-  promotionHeading: "Heading",
-  promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  // End Promotion Section -----------------
+  // End Experience Section -----------------
 
     //   Promotion / Blogs && Talks Section --------------------------
 

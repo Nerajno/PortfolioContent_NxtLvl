@@ -18,9 +18,7 @@ const Navbar = () => {
             <button onClick={() => scrollTo("#projects")}>Projects</button>
             <button onClick={() => scrollTo("#skills")}>Skills</button>
             <button onClick={() => scrollTo("#experience")}>Professional Experience</button>
-            <button onClick={() => scrollTo("#opensourcecontributions")}>Open Source Contributions</button>
-            <button onClick={() => scrollTo("#testimonials")}>Testimonials</button>
-            <button onClick={() => scrollTo("#blogs")}>Blogs and Talks</button>
+            <button onClick={() => scrollTo("#promotions")}>Blogs and Talks</button>
             <button onClick={() => scrollTo("#contact")}>Contact</button>
           </div>
         </div>

@@ -14,6 +14,8 @@ import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons"
 
 library.add(fab, faCheckSquare, faCoffee)
 
+
+
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
@@ -33,7 +35,7 @@ export default {
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
 
   //Contact Email
-  contactEmail: "iamnerandojohnson@gmail.com",
+  contactEmail: "iamnerandojohnson@gmail.com, 
 
   // End Header Details -----------------------
 

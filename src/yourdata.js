@@ -35,7 +35,7 @@ export default {
     "Trying to be perfect is an excuse not to do. – Gary Vaynerchuk",
     //Look into putting in auto typer with info or more info.
   //Contact Email
-  contactEmail: "iamnerandojohnson@gmail.com, 
+  contactEmail: "iamnerandojohnson@gmail.com", 
 
   // End Header Details -----------------------
 

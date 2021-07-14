@@ -1,6 +1,6 @@
 import React from "react"
 
-const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
+const Card = ({ heading, paragraph, imgUrl, projectLink, githubLink }) => {
   return (
     <div
       className="card"
@@ -18,9 +18,18 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
           href={projectLink ? projectLink : "#"}
           target="_blank"
           rel="noopener noreferrer"
-          className="btn"
+          className="btn siteBtn"
         >
-          Explore
+         Site Link
+        </a>
+     
+        <a
+          href={githubLink ? githubLink : "#"}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn githubBtn"
+        >
+          Github
         </a>
       </div>
     </div>

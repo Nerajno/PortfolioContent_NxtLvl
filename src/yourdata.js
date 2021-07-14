@@ -14,6 +14,8 @@ import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons"
 
 library.add(fab, faCheckSquare, faCoffee)
 
+
+
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
@@ -33,7 +35,7 @@ export default {
     "Trying to be perfect is an excuse not to do. – Gary Vaynerchuk",
     //Look into putting in auto typer with info or more info.
   //Contact Email
-  contactEmail: "iamnerandojohnson@gmail.com",
+  contactEmail: "iamnerandojohnson@gmail.com", 
 
   // End Header Details -----------------------
 

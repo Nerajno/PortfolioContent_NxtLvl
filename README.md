@@ -22,6 +22,17 @@ A simple SPA Portfolio template for developer/designers built with React. Use it
 #212E40
 
 
+# Structure
+- About
+- Skills
+- Professinal Experience
+- Projects
+- Open Source Experiences/ Contributions
+- Qualifications/ Certs
+- Blogs/ Talks/ Podcasts
+- Testimonials
+- Contact
+  
 
 ## Examples
 
@@ -35,4 +46,3 @@ A simple SPA Portfolio template for developer/designers built with React. Use it
 - http://zubair-portfolio.surge.sh/#/
 - https://mmacneil.github.io/devfolio/
 - https://anuraghazra.github.io/
-- https://christianibarguen.com/

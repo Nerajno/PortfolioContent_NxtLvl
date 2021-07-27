@@ -1,58 +1,51 @@
-import React from "react"
-import Fade from "react-reveal/Fade"
-import data from "../yourdata"
+import React, { Component } from 'react';
+export default class Header extends Component {
+  render() {
+    let resumeData = this.props.resumeData;
+    return (
+      <React.Fragment>
+      
+      <header id="home">
+         <nav id="nav-wrap">
+            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+            <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+            <ul id="nav" className="nav">
+               <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
+               <li><a className="smoothscroll" href="#about">About</a></li>
+             <li><a className="smoothscroll" href="#resume">Resume</a></li>
+               <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+               <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+               <li><a className="smoothscroll" href="#contact">Contact</a></li>
+            </ul>
+         </nav>
 
-const Header = () => {
-  return (
-    <div className="section" id="home">
-      <div className="container">
-        <div className="header-wrapper">
-          <Fade bottom>
-            <h2>
-              Hi, I'm {data.name}{" "}
-              <span role="img" aria-label="Emoji">
-              👋🏿
-              </span>
-            </h2>
-          </Fade>
-          <Fade bottom cascade>
-            <div className="heading-wrapper">
-              <h1>
-                {data.headerTagline[0]
-                  ? data.headerTagline[0]
-                  : "Building digital"}
-              </h1>
-              <h1>
-                {" "}
-                {data.headerTagline[1]
-                  ? data.headerTagline[1]
-                  : "products, brands"}
-              </h1>
-              <h1>
-                {" "}
-                {data.headerTagline[2]
-                  ? data.headerTagline[2]
-                  : "and experience"}
-              </h1>
+         <div className="row banner">
+            <div className="banner-text">
+               <h1 className="responsive-headline">I am {resumeData.name}.</h1>
+               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am a {resumeData.role}.{resumeData.roleDescription}
+               </h3>
+               <hr/>
+               <ul className="social">
+                  {
+                    resumeData.socialLinks && resumeData.socialLinks.map(item =>{
+                      return(
+                              <li key={item.name}>
+                                <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                              </li>
+                            )
+                          }
+                    )
+                  }
+               </ul>
             </div>
-          </Fade>
-          <Fade bottom>
-            <p>{data.headerParagraph}</p>
-          </Fade>
-          <Fade bottom>
-            <a
-              href={`mailto:${
-                data.contactEmail ? data.contactEmail : "iamnerandojohnson@gmail.com"
-              }`}
-              className="primary-btn"
-            >
-              Get in touch 👉🏿 📩 // Link 2 AWS btn
-            </a>
-          </Fade>
-        </div>
-      </div>
-    </div>
-  )
-}
+         </div>
 
-export default Header
+         <p className="scrolldown">
+            <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+         </p>
+
+      </header>
+      </React.Fragment>
+    );
+  }
+}
